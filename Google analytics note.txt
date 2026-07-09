@@ -1,0 +1,96 @@
+###### c'est quoi google analytics?
+
+c'est une application web offerte par google pour analyser la facons dont les utilisateurs trouvent et utilisent le siteweb cible pour recuperer
+des donnees essentiel qui permetent definir une strategie marketing adequate.
+
+1.que retourne google analytique?
+
+par exemple:
+
+-le nombre de visiteur.
+
+-leurs zone geographique
+
+-quel type de materiel ils utilisent
+
+-combien de temps ils passent sur le site
+
+-les actions qu'ils font
+
+et beaucoups de d'autres temes
+
+2.google analytics resultat : google analytics permet de retourner des indicateurs comme le ROI(Return on Investment) qui permetent de mesurer les coups
+
+3.GA4 utilisation sur le marché du commerce:
+
+GA4 est le plus connus mondialement
+
+-Au moins 10 millions de siteweb l'utilisent dans le monde(Netflix, UBS,...ect)
+
+-64% de detaillant e-commerce l'utilisent
+
+-45% de grande entreprise dans le monde l'utilisent
+
+
+###### installation de googleanalytics ########
+
+pour pouvoir utiliser GA4 il faut d'abbor l?installer et le configurer comme suit
+
+ouvrire ce lien : analytics.google.com
+
+1/entrez l'adresse e-mail de votre compte gmail ou autre
+
+2/ cliquer sur "start measuring" pour lamcer l'account setup
+
+3/ sur l'account setup account entre le nom du compte (generalement le nom de votre entreprise ou projet)
+
+4/ sur proprety setup : entrer le nom de votre site proprietaire(n'importe quel nom)
+
+5/ par la suite le fuseau horaire et la monaie utilisé apuyez sur valider
+
+6/ about buisness : entrez l'industrie concerne(par exemple internet and telecom) ceci permetera de recuperer les donnes referencé par ce secteur
+
+7/ ajouter la taille de votre entreprise(par exemple de 1 - 10)
+
+8/ il faut choisir les fonctionalité que vous desirer utiliser dans google analytics. Pour un commencement
+cocher les case suivante :
+
+        *Measure Customer Emgagement with my site or App
+
+        *Optimize my site or app experience
+
+        *Increase my conversions
+
+        *Analyse my online site
+
+9/ cliquer sur create
+
+10/ sur my email communication ne cocher rien du tout just apuyer sur "save"
+
+###### ajout du site sur GA4 ########
+
+pour traquer l'utilisation de votre appllication ou siteweb il faut d'abbord l'ajouter :
+
+1/ dans le menus a gauche aller sur Data Streams
+
+2/ choisir la plateforme desiré dans notre exemple le site web
+
+3/ entrer l'url du site web et le lier avec le poprety setup sur le champ stream name, par exemple:
+
+    www.mywebsite.com
+    myprojectname
+
+4/ "Enhanced measurement" doit etre activé, par la suite cliquer sur "create stream"
+
+5/ on obtien la page "stream details" qui s'affiche
+
+maintenant on install Google tag et pour cela il faut verifier si le code crée par GA4 est bien
+dans le "Google tag instruction", ce code est en java script et permet de lier "Google Tag", le site internet ainsi que GA4 ensemble
+
+c'est quoi google Tags :
+
+Les "Google tags" sont des outils qui permettent de collecter des données sur ce que font les visiteurs de votre site web, afin d'en analyser les performances et d'optimiser vos campagnes marketing .
+
+Pour faire simple, ils agissent comme des capteurs que vous installez sur votre site. Ils transmettent des informations aux outils Google comme Google Analytics ou Google Ads, par exemple quand une personne achète un produit, s'inscrit à une newsletter ou consulte une page spécifique . Pour gérer ces tags efficacement, deux approches principales existent.
+
+
