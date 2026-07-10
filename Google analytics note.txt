@@ -87,10 +87,91 @@ pour traquer l'utilisation de votre appllication ou siteweb il faut d'abbord l'a
 maintenant on install Google tag et pour cela il faut verifier si le code crée par GA4 est bien
 dans le "Google tag instruction", ce code est en java script et permet de lier "Google Tag", le site internet ainsi que GA4 ensemble
 
-c'est quoi google Tags :
+##########c'est quoi google Tags :
 
-Les "Google tags" sont des outils qui permettent de collecter des données sur ce que font les visiteurs de votre site web, afin d'en analyser les performances et d'optimiser vos campagnes marketing .
+Les "Google tags" sont des outils qui permettent de collecter des données sur ce que font les visiteurs de votre site web, afin d'en analyser
+les performances et d'optimiser vos campagnes marketing .
 
-Pour faire simple, ils agissent comme des capteurs que vous installez sur votre site. Ils transmettent des informations aux outils Google comme Google Analytics ou Google Ads, par exemple quand une personne achète un produit, s'inscrit à une newsletter ou consulte une page spécifique . Pour gérer ces tags efficacement, deux approches principales existent.
+Pour faire simple, ils agissent comme des capteurs que vous installez sur votre site. Ils transmettent des informations aux outils
+Google comme Google Analytics ou Google Ads, par exemple quand une personne
+achète un produit, s'inscrit à une newsletter ou consulte une page spécifique . Pour gérer ces tags efficacement, deux approches principales existent.
+
+######## installation google Tags
+
+1/ aller sur sur google et tapper "google manager" puis cliquer sur le lien Google Tag
+
+2/ maintenant cliquer sur "create an acount" puis dans "Account name" donner le nom du compte et le pays et electioner
+
+puis dans container "setup" entrer  l'url du site web et enfin sur "Targer platform" choisire la platform
+
+que vous souhaiter dans notre cas "web"
+
+3/ accepter les terme, par la suite on recoit deux script en java script qui doit etre ajouter
+
+manuellement dans toutes les pages du site web un dans la balise <header> et l'autre dans la balise <body>.
+
+###### liason google Tags a GA4 :
+
+1/ sur le dashboard de google tags aller dans le menu à gauche et cliquer sur "Tags"
+
+2/ Cliquer sur new puis sur tag configuration et choisir GA4
+
+3/ une page s'ouvre et affiche un champ "Measurement ID". Pour recuperer le "measurement ID" il faut retourner
+
+sur GA4 puis cliquer sur "Data streams" recuperer le "Measurement ID" qui doit etre coller dans le champ de definition
+
+de "Google Tag"
+
+4/ Aller sur "Triggering" puis choisir "All Pages" puis cliquer sur le bouton "save"
+
+5/ maintenant il faut publier les tags dans google analytics comme suit : aller en haut à droite et cliquer
+
+sur "publish"
+
+maintenant on verifie que tout fonctionne :
+
+1/ On ouvre le site internet
+
+2/ on va sur "reports" dans le menu de gauche pui on choisit "Realtime" on vois que le rappor s'affiche
+
+
+###### comment eviter de gonfler votre trafique de donnees (Lecture correcte)
+
+il est tres important qu'ont puisse lire correctement les donnes avec precision sans inclure les vus et les actions
+
+ de notre service informatiques et marketing pour cela il faut crée des regles
+
+specifiques dans google analytique pour que les courbes soient correcte est juste dans le temp
+
+conforment et reellement mis à jour, onfait de la manierre suivante :
+
+1/ aller sur admin>data stream et cliquer sur le stream(notre site web)
+
+2/ cliquer sur tag seeting>Define internal traffic pui clique sur create
+
+3/ par l suite nous avons une page qui s'affiche ou on doit entre notre :
+        *nom de la regle : n'importe quel nom
+        *traffic_type value : le laisser internal
+        *choisir IP adresse equals
+
+apres avoir cree la regle maintenant on l'applique
+
+4/ aller dans admin>data settings>Data Filters>internal trafic
+
+5/ on remplis les champs :
+    *filter details>data filter name: le nom de la regle cree avant
+    *filter state : activate
+
+6/ cliker sur create et apres sur "activate Filter"
+
+la regle fonctionne maintenant
+
+
+
+
+
+
+
+
 
 
