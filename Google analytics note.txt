@@ -1,4 +1,4 @@
-###### c'est quoi google analytics?
+###### c'est quoi google analytics? #######
 
 c'est une application web offerte par google pour analyser la facons dont les utilisateurs trouvent et utilisent le siteweb cible pour recuperer
 des donnees essentiel qui permetent definir une strategie marketing adequate.
@@ -17,7 +17,7 @@ par exemple:
 
 -les actions qu'ils font
 
-et beaucoups de d'autres temes
+et beaucoups d'autres temes
 
 2.google analytics resultat : google analytics permet de retourner des indicateurs comme le ROI(Return on Investment) qui permetent de mesurer les coups
 
@@ -100,7 +100,7 @@ achète un produit, s'inscrit à une newsletter ou consulte une page spécifique
 
 1/ aller sur sur google et tapper "google manager" puis cliquer sur le lien Google Tag
 
-2/ maintenant cliquer sur "create an acount" puis dans "Account name" donner le nom du compte et le pays et electioner
+2/ maintenant cliquer sur "create an acount" puis dans "Account name" donner le nom du compte et le pays a selectioner
 
 puis dans container "setup" entrer  l'url du site web et enfin sur "Targer platform" choisire la platform
 
@@ -165,6 +165,120 @@ apres avoir cree la regle maintenant on l'applique
 6/ cliker sur create et apres sur "activate Filter"
 
 la regle fonctionne maintenant
+
+
+############### Demo Analytics Account
+
+pour une meilleur comprehension de google analytics et avoir une optimisation sur tout les tableaux et rapports du dashboard on utilise la demo
+faite par google qu'on trouve sur le site suivant "https://support.google.com/analytics/answer/6367342?hl=en#access&zippy=%2Cin-this-article"
+
+quand on est sur le sit au mileux de la page ont trouve deux liens :
+
+-Google Analytics property: Google Merchandise Store (web data) -> configuration faite pour mesurer les vente sur le store google
+
+-Google Analytics property: Flood-It! (app and web data) -> configuration faite de l'utilisation des jeux videos sur
+
+plusieurs platformes comme les plateformes mobile pour mesurer le taux de frequentation des jeux app
+
+############### Google analytic Dashboard
+
+nous allons maintenant faire une bref reconaissance de notre tableau de controle de GA4.
+
+en utilisant un des comptes demo google analytics account, dans le menu a gauche :
+
+    *rapport>rapport instantané : permet d?avoir une vue general mais pas precise sur les données recherché, pour avoir des resultats precis on ira consulter plutot les rapport sous l'onglet
+     "life cycle"
+
+    *rapport>rapport temps réel : rapport au temps T, tres utile pour observer l'effet d'une campagne publicitaire
+
+    -Partie 1 Life Cycle :
+        *rapport>lifecycle>Aquisition>Vue de l'utilisateur : Cet onglet répond à la question "D'où viennent vos visiteurs ?". Il analyse les canaux (recherche organique, direct, réseaux sociaux, campagnes payantes, etc.)
+
+        qui amènent du trafic vers votre site ou application . Il vous permet
+
+        d'identifier vos sources de trafic les plus performantes pour attirer de nouveaux utilisateurs
+
+        *rapport>lifecycle>Engagement>Vue de l'utilisateur : Il se concentre sur l'interaction des utilisateurs avec votre contenu une fois sur votre site. Il mesure des actions spécifiques (comme les clics, les téléchargements, ou les
+
+        visions de vidéos) et indique combien de temps les utilisateurs passent sur vos pages . C'est l'onglet qui permet de comprendre quels contenus ou fonctionnalités captent l'attention de votre audience
+
+        *rapport>lifecycle>monétisation>Vue de l'utilisateur : C'est l'onglet dédié aux revenus. Il centralise les données de performance financière : achats dans une boutique en ligne, revenus
+
+        des publicités, ou achats intégrés dans une application . Il est essentiel pour mesurer le retour sur investissement de vos stratégies.
+
+        *rapport>lifecycle>retention : L'onglet Rétention répond à la question "Les utilisateurs que j'ai attirés reviennent-ils sur mon site ou mon application ?"
+
+        Acquisition vous dit qui vient, Engagement vous dit ce qu'ils font, Monétisation vous dit combien ils rapportent, mais Rétention vous dit s'ils sont suffisamment intéressés pour revenir.
+
+    -Partie 2 Utilisateurs :
+        *rapport>users>demographie>vue d'utilisateur : nous donne les zones geographque plus le genre et plus d'informations sur nos clients et uuilisateur.
+
+        *rapport>users>tech>vue d'utilisateur : nous retourne les appareils les plus utilisés, les systemes d'exploitations et beaucoup d'autres information concernant les technologies.
+
+remarque : tout les rapports son affiché sur un resultat de 28 jours par defaut, mais on peut parametrer le calendrier comme on le souhaite.
+
+
+
+###### Analyses des données #######
+
+nous allons maintenant faire des analyses simple mais claire des differentes données concernant le trafic, les pages les plus utilisées sur le site, les donnes demographiques et les technologie apparente tout cela
+
+est reportè sur les summary cards(carte de resumè):
+
+    1- Les piliers de l'audience :
+
+        1/ aller sur rapport>cycle de vie>aquisition>vue d'ensemble
+
+        2/ sur le tableau periodique qui affiche le traffic utilisateur en haut a gauche on vois deux indices :
+
+            Utilisateur actif : utilisateur deja inscrit et qui revienent plusieurs fois.
+
+            Nouveau Utilisateur : nouveau utilisateurs inscrits.
+
+        3/ il est possible de voir de facon periodique en parcourant la courbe cobien ont frequente le site a tel date.
+
+        4/ en haut a droite on peut parametrer la date sur la bare de menu intermediaire.
+
+
+
+    2-Les canaux d'acquisition
+
+        Nouveaux utilisateurs par groupe de canaux (première interaction) : C'est votre carte "Acquisition" par excellence. Elle répond à la question : "Par quel canal les gens ont-ils découvert mon site
+
+        pour la première fois ?" (Recherche organique, Réseaux sociaux payants, Direct, etc.) . Elle utilise la dimension "First user" qui est définitive pour l'utilisateur, contrairement à la carte suivante.
+
+        Sessions par groupe de canaux (session) : Ici, l'angle est différent. On ne regarde pas le premier contact de l'utilisateur, mais toutes les sessions, qu'elles viennent d'un nouveau
+
+        visiteur ou d'un visiteur régulier . C'est ce qui se rapproche le plus de l'ancien rapport "Acquisition" d'Universal Analytics. Par exemple, si un utilisateur vient
+
+        d'abord via la recherche organique, puis revient via un lien direct, cette carte attribuera la session à "Direct" .
+
+        Sessions par campagne Google Ads (session) : Une carte dédiée aux utilisateurs de Google Ads. Elle détaille le nombre de sessions générées par le nom de vos différentes
+
+        campagnes publicitaires, ce qui vous permet de mesurer directement l'efficacité de vos annonces
+
+    3-La valeur à long terme
+
+        Valeur vie client (LTV) sur 120 jours : Probablement la carte la plus stratégique. Elle ne se concentre pas sur un volume de trafic, mais sur la qualité de celui-ci.
+
+        Elle estime le revenu moyen généré par les nouveaux utilisateurs au cours de leurs 120 premiers jours . Cela vous permet de savoir si vos canaux attirent des
+
+        clients qui achètent immédiatement (faible LTV) ou des clients qui restent fidèles et génèrent des revenus dans la durée (forte LTV).
+
+    4*
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
