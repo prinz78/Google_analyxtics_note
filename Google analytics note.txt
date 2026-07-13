@@ -162,7 +162,7 @@ apres avoir cree la regle maintenant on l'applique
     *filter details>data filter name: le nom de la regle cree avant
     *filter state : activate
 
-6/ cliker sur create et apres sur "activate Filter"
+6/ cliquer sur create et apres sur "activate Filter"
 
 la regle fonctionne maintenant
 
@@ -215,8 +215,11 @@ en utilisant un des comptes demo google analytics account, dans le menu a gauche
 
         *rapport>users>tech>vue d'utilisateur : nous retourne les appareils les plus utilisés, les systemes d'exploitations et beaucoup d'autres information concernant les technologies.
 
-remarque : tout les rapports son affiché sur un resultat de 28 jours par defaut, mais on peut parametrer le calendrier comme on le souhaite.
+    remarque : tout les rapports son affiché sur un resultat de 28 jours par defaut, mais on peut parametrer le calendrier comme on le souhaite.
 
+    *Explorer : pour etudier avec precision une donnee qu'on souhaite detailler
+
+    *Recapitulatif publicite : pour etudier les campagnes de publicte lance avec google Ads ou un autre outil
 
 
 ###### Analyses des données #######
@@ -224,6 +227,8 @@ remarque : tout les rapports son affiché sur un resultat de 28 jours par defaut
 nous allons maintenant faire des analyses simple mais claire des differentes données concernant le trafic, les pages les plus utilisées sur le site, les donnes demographiques et les technologie apparente tout cela
 
 est reportè sur les summary cards(carte de resumè):
+
+  KP1.Trafic utilisateur
 
     1- Les piliers de l'audience :
 
@@ -255,17 +260,118 @@ est reportè sur les summary cards(carte de resumè):
 
         Sessions par campagne Google Ads (session) : Une carte dédiée aux utilisateurs de Google Ads. Elle détaille le nombre de sessions générées par le nom de vos différentes
 
-        campagnes publicitaires, ce qui vous permet de mesurer directement l'efficacité de vos annonces
+        campagnes publicitaires, ce qui vous permet de mesurer directement l'efficacité de vos annonces.
+
+        voici les indices :
+
+             1. Direct (Trafic direct)
+
+                Ce que c'est : Des utilisateurs qui arrivent sur votre site sans qu'on sache d'où ils viennent.
+
+                Exemples concrets :
+
+                    Ils tapent votre URL directement dans la barre d'adresse de leur navigateur (monsite.com).
+
+                    Ils cliquent sur un lien enregistré dans leurs favoris (bookmark).
+
+                    Ils cliquent sur un lien dans un document PDF, un email non balisé, ou une application mobile qui n'envoie pas d'informations de suivi.
+
+                Interprétation : Un taux de Direct élevé peut être bon (notoriété de votre marque) ou mauvais (vos liens ne sont pas correctement trackés).
+
+            2. Organic Search (Recherche organique)
+
+                Ce que c'est : Des visiteurs qui viennent des résultats naturels (non payants) des moteurs de recherche (Google, Bing, DuckDuckGo, etc.).
+
+                Exemple concret : Un internaute tape "meilleurs chaussures de running" dans Google et clique sur le premier lien bleu qui n'a pas la mention "Sponsorisé".
+
+                Interprétation : C'est le pouls de votre SEO (référencement naturel). Si ce chiffre monte, vos articles et pages sont bien positionnés dans les moteurs de recherche.
+
+            3. Paid Search (Recherche payante)
+
+                Ce que c'est : Des visiteurs qui viennent en cliquant sur vos annonces payantes diffusées sur les moteurs de recherche (Google Ads, Bing Ads).
+
+                Exemple concret : Une personne tape "achat chaussures en ligne", et clique sur le lien qui apparaît en premier avec la petite étiquette "Annonce" ou "Sponsorisé".
+
+                Interprétation : C'est le canal de vos campagnes SEA. Il vous montre le retour sur investissement (ROI) de votre budget publicitaire sur les mots-clés.
+
+            4. Unassigned (Non attribué / Non classé)
+
+                Ce que c'est : LA catégorie "fourre-tout". GA4 n'a pas réussi à identifier la provenance exacte du trafic, souvent à cause d'un paramètre manquant ou d'une limitation technique (comme une redirection qui efface les infos de suivi).
+
+                Interprétation : Idéalement, ce chiffre doit être le plus bas possible. S'il est élevé, cela signifie que vous perdez des données (par exemple, des clics venant de réseaux sociaux qui ne sont pas trackés correctement, ou des campagnes qui manquent de balises UTM).
+
+            5. Cross-network (Multi-réseaux - principalement Google Ads)
+
+                Ce que c'est : Un canal très spécifique à Google Ads. Il regroupe les visiteurs qui viennent de campagnes publicitaires qui combinent plusieurs réseaux Google en même temps.
+
+                Exemple concret : Si vous lancez une campagne "Performance Max" sur Google, celle-ci diffuse vos annonces à la fois sur la Recherche Google, YouTube, Gmail, et le Display Network. Tous les clics issus de cette campagne multi-canal seront rangés ici.
+
+                Interprétation : Ce n'est pas un canal "naturel", mais un regroupement technique de vos annonces Google cross-plateformes.
+
+            6. Referral (Trafic de référence / Recommandation)
+
+                Ce que c'est : Des visiteurs qui arrivent en cliquant sur un lien qui se trouve sur un autre site web (qui n'est pas un moteur de recherche).
+
+                Exemples concrets :
+
+                    Un article de blog d'un influenceur qui met un lien vers votre boutique.
+
+                    Un site d'actualités qui cite votre étude.
+
+                    Un annuaire professionnel ou un forum (Reddit, Quora) qui redirige vers vous.
+
+                Interprétation : C'est excellent pour le SEO (backlinks) et pour la notoriété. Cela mesure votre "buzz" sur le web.
+
+            7. Organic Social (Social organique)
+
+                Ce que c'est : Des visiteurs qui viennent des réseaux sociaux (Facebook, Instagram, LinkedIn, X/Twitter, TikTok, etc.) gratuitement, c'est-à-dire via des publications naturelles (et non via des publicités payantes).
+
+                Exemple concret : Vous postez une photo sur Instagram avec votre lien dans la bio, un abonné clique dessus. Ou vous partagez un article sur votre page LinkedIn et un contact clique dessus.
+
+                Interprétation : C'est l'indicateur de l'engagement de votre communauté et de la qualité de votre contenu social gratuit.
+
 
     3-La valeur à long terme
 
-        Valeur vie client (LTV) sur 120 jours : Probablement la carte la plus stratégique. Elle ne se concentre pas sur un volume de trafic, mais sur la qualité de celui-ci.
+        Valeur vie client LTV(Lomg Term Value) sur 120 jours :  la carte la plus stratégique. Elle ne se concentre pas sur un volume de trafic, mais sur la qualité de celui-ci.
 
         Elle estime le revenu moyen généré par les nouveaux utilisateurs au cours de leurs 120 premiers jours . Cela vous permet de savoir si vos canaux attirent des
 
         clients qui achètent immédiatement (faible LTV) ou des clients qui restent fidèles et génèrent des revenus dans la durée (forte LTV).
 
-    4*
+
+  KP2.Donnees demographique
+
+        pour regrouper les donnes demographiques il faut aller sur utilisateur>demographie>detail demographique :
+
+         1- resume card utilisateur par pays :
+            affiche les courbes de frequentations des utilisateur par pays en temp reel, constater les haut et les bas des courbes.
+
+         2- resume card utilisateur par pays Graphe :
+            meilleur visibilite en terme de classement de frequentation.
+
+         3- resume card utilisateur pays releve par tableaux :
+            c'est le point cle de de cette recherche de donnees il faut voir quatres colones :
+
+                *utilisateurs
+
+                *nouveau utilisateurs
+
+                *Engaged session
+
+                *Average engagement session
+
+                *Total revenue(dans le cas d'un site e-comerce)
+
+            il est possible avec le signe "+" en haut a droite du tableau de selectioner le classement par ville ou par categorie d'age, ...ect
+
+
+
+
+
+
+
+
 
 
 
