@@ -228,7 +228,7 @@ nous allons maintenant faire des analyses simple mais claire des differentes don
 
 est reportè sur les summary cards(carte de resumè):
 
-  KP1.Trafic utilisateur
+  KP1.Trouver Annalyser le Trafic utilisateur
 
     1- Les piliers de l'audience :
 
@@ -240,7 +240,7 @@ est reportè sur les summary cards(carte de resumè):
 
             Nouveau Utilisateur : nouveau utilisateurs inscrits.
 
-        3/ il est possible de voir de facon periodique en parcourant la courbe cobien ont frequente le site a tel date.
+        3/ il est possible de voir de facon periodique en parcourant la courbe combien ont frequente le site a tel date.
 
         4/ en haut a droite on peut parametrer la date sur la bare de menu intermediaire.
 
@@ -333,14 +333,14 @@ est reportè sur les summary cards(carte de resumè):
 
     3-La valeur à long terme
 
-        Valeur vie client LTV(Lomg Term Value) sur 120 jours :  la carte la plus stratégique. Elle ne se concentre pas sur un volume de trafic, mais sur la qualité de celui-ci.
+        Valeur vie client LTV(Long Term Value) sur 120 jours :  la carte la plus stratégique. Elle ne se concentre pas sur un volume de trafic, mais sur la qualité de celui-ci.
 
         Elle estime le revenu moyen généré par les nouveaux utilisateurs au cours de leurs 120 premiers jours . Cela vous permet de savoir si vos canaux attirent des
 
         clients qui achètent immédiatement (faible LTV) ou des clients qui restent fidèles et génèrent des revenus dans la durée (forte LTV).
 
 
-  KP2.Donnees demographique
+  KP2.Trouver et analyser les donnees demographique
 
         pour regrouper les donnes demographiques il faut aller sur utilisateur>demographie>detail demographique :
 
@@ -363,7 +363,171 @@ est reportè sur les summary cards(carte de resumè):
 
                 *Total revenue(dans le cas d'un site e-comerce)
 
-            il est possible avec le signe "+" en haut a droite du tableau de selectioner le classement par ville ou par categorie d'age, ...ect
+            il est possible avec le signe "+" en haut a Gauche du tableau de selectioner le classement par ville ou par categorie d'age, ...ect
+
+
+  KP3.Trouver et analyser les pages les plus utilisé et leur dynamique sur notre site web :
+
+        pour un vue claire et directe sur les pages les plus frequenté il faut aller sur rapports>life cycle>engagement>pages et écrans :
+
+            1/ On observe sur le premier resume card un ensemble de courbes qui permetent d'avoir les trois premierre page visités en plus d'une courbe qui donne
+
+            la somme des visiteurs sur toutes les pages.
+
+            2/ il est passible d'ajouter un filtre pour conditioner les courbes en haut a gauche du la carte de resumé
+
+        pour avoir une representation statistique sur un tableau on consulte le tableau de données listé.
+
+            1/ Sur ce tableau il faut d'abord changer un parametre en appuyant sur la liste de selection en haut a gauche et selectioner "titre de page et classe de l'ecran", car le tableau affiche par deffaut
+
+              le resultat pour les developpeur du site.
+
+            2/ il faut consulter les trois colonne pour avoir une bonne annalyse qui sont :
+
+                    *Vues
+
+                    *Utilisateurs actifs
+
+                    *Durée d'engagement moyenne par utilisateur actif
+
+            3/ il est possible de rajouter avec le bouton + une propriete pour plus de detail sur les resultats comme par exemple "la plateforme de l'appareil" pour voir les page le plus consulter par Android par exemple
+
+            ou appareil mobile.
+
+        1.Croisement de données:
+
+            imaginons maintenant qu'on veut savoir par quelle page ou le plus utilisateurs quittent le site, on ne poura pas avoir l'information directement sur nos resume card,
+
+            pour cela on va explorer ou rechercher la donnée en utilisant l'explorateur, mais on donnes d'abbord les deffinitions des variables et parametres
+
+            du Format libre qui est la base du croisement de données dans GA4 :
+
+
+               1-coté variable :
+
+                    Dans l'outil "Explorations > Format libre" de GA4, la partie "Variables" sur la gauche est votre boîte à outils principale pour construire des rapports sur mesure.
+
+                    C'est là que vous rassemblez tous les éléments  qui serviront à composer votre analyse.
+
+                    Concrètement, c'est comme une palette de peintre ou un bac à ingrédients : vous devez d'abord y placer les données que vous souhaitez utiliser avant de pouvoir les "appliquer" dans votre tableau.
+
+                    Voici la signification de chaque section que vous trouverez dans ce panneau :
+
+                    ✏️ Nom de l'exploration :
+
+                        Tout en haut du panneau, vous pouvez cliquer sur le nom par défaut pour le renommer. C'est très pratique pour ne pas vous perdre si vous créez plusieurs explorations différentes.
+
+                    📅 Période (Date Range) :
+
+                        C'est ici que vous choisissez la période que vous souhaitez analyser. Vous pouvez sélectionner une période prédéfinie (ex: les 28 derniers jours), ou définir une plage personnalisée.
+
+                        Vous avez aussi souvent l'option "Ajouter une comparaison" pour comparer deux périodes entre elles (ex: ce mois-ci vs. le mois dernier).
+
+                    🧩 Segments (Segments) :
+
+                        Les segments sont des filtres avancés qui vous permettent d'isoler des sous-ensembles de vos données pour les analyser plus finement.
+
+                        Par exemple, vous pouvez analyser uniquement le comportement de vos "Utilisateurs mobiles" ou de vos "Utilisateurs ayant effectué un achat".
+
+                        Par défaut, GA4 propose quelques segments prêts à l'emploi comme "Trafic direct" ou "Trafic payant".
+
+                        Vous pouvez aussi cliquer sur le + pour créer vos propres segments personnalisés, en définissant des conditions sur les utilisateurs, les sessions ou les événements.
+
+                    📊 Dimensions (Dimensions) :
+
+                        Les dimensions sont les attributs qualitatifs qui décrivent vos données. Ce sont des "qui, quoi, où" qui permettent de classifier vos visiteurs et leurs actions.
+
+                        Pour reprendre vos exemples : "Source/Medium" (d'où vient le trafic) ou "Page" (sur quelle page) sont des dimensions.
+
+                        D'autres exemples courants sont la "Catégorie d'appareil", la "Ville", ou le "Nom d'événement". Ce sont elles que vous placerez dans les "Lignes" ou "Colonnes" de votre tableau.
+
+                    📈 Métriques (Metrics) :
+
+                        Les métriques sont les valeurs quantitatives qui se mesurent. Ce sont les chiffres qui donnent de la substance à vos dimensions.
+
+                        Par exemple, "Nombre d'utilisateurs", "Sessions", "Taux d'engagement" ou "Revenus" sont des métriques. Vous les glisserez dans la section "Valeurs" de votre tableau.
+
+
+
+
+               2-coté paramètre :
+
+                   Dans l'outil "Explorations" de GA4, la partie "Paramètres de l'onglet" (Tab Settings) est le cœur du rapport. C'est ici que vous allez construire votre tableau ou votre graphique, en utilisant
+
+                   les dimensions et métriques que vous avez préparées dans la partie "Variables" que nous avons vue précédemment.
+
+                   La partie "Variables" contient la matière première, et la partie "Paramètres de l'onglet" est l'atelier où vous l'assemblez pour créer votre visualisation. Elle est divisée en plusieurs sections
+
+                   que vous pouvez configurer selon vos besoins .
+
+                   Description + Exemples d'utilisation :
+
+                    * Visualisation (Visualization) : Permet de choisir le type de graphique pour représenter vos données : tableau, diagramme en anneau, graphique linéaire, nuage de points, diagramme à barres ou
+
+                    carte géographique.	Sélectionnez "Tableau" pour une vue détaillée ligne par ligne, ou "Carte géographique" pour visualiser la répartition de vos utilisateurs par pays.
+
+                    * Segments (Segment Comparison) :	Vous pouvez appliquer jusqu'à 4 segments pour comparer le comportement de différentes audiences (ex: utilisateurs mobiles vs. utilisateurs sur tablette).
+
+                    Faites glisser le segment "Trafic mobile" depuis la partie "Variables" pour analyser uniquement le comportement de ces utilisateurs.
+
+                    * Filtres (Filters): Permet de restreindre les données affichées selon des conditions précises . Par exemple, pour n'analyser que le trafic d'un pays spécifique.
+
+                    Appliquez un filtre sur la dimension "Pays" pour que le rapport ne montre que les données des États-Unis.
+
+                    * Lignes (Rows): Vous placez ici les dimensions qui constitueront les lignes de votre tableau. Vous pouvez ajouter jusqu'à 5 dimensions.
+
+                    Si vous en ajoutez plusieurs, elles s'organiseront en hiérarchie. Placez la dimension "Source/Support" en première ligne pour voir vos canaux d'acquisition.
+
+                    * Colonnes (Columns):	Vous placez ici les dimensions qui formeront les colonnes de votre tableau. Vous pouvez en ajouter jusqu'à 2. C'est très utile pour des comparaisons entre catégories.
+
+                    Placez la dimension "Catégorie d'appareil" en colonne pour comparer les performances sur mobile, desktop et tablette côte à côte.
+
+                    * Valeurs (Values): C'est ici que vous placez les métriques que vous souhaitez mesurer. Vous pouvez en ajouter jusqu'à 10.	Faites glisser "Utilisateurs", "Sessions" et "Taux d'engagement" dans
+
+                    cette section pour voir les chiffres clés de votre rapport.
+
+                    Type de cellule (Cell type)	Permet de modifier l'affichage des métriques. Vous pouvez les afficher en texte brut, sous forme de barres
+
+                    de données (comme un mini graphique à barres) ou de carte de chaleur (heatmap) pour une lecture plus visuelle. Sélectionnez "Carte de chaleur" pour identifier
+
+                    rapidement les cellules avec les valeurs les plus élevées.
+
+
+
+                    -Construire le rapport : Pour créer votre rapport, vous faites glisser les éléments (dimensions et métriques) depuis la partie "Variables" vers les sections
+
+                    correspondantes (Lignes, Colonnes, Valeurs) dans la partie "Paramètres de l'onglet". La visualisation se met automatiquement à jour dans la partie centrale.
+
+                    Nested Rows (Lignes imbriquées) : Si vous placez plusieurs dimensions dans les "Lignes", elles peuvent s'afficher de manière imbriquée par défaut.
+
+                    Cela crée une hiérarchie où la première dimension est le niveau principal, et la seconde la sous-catégorie. Vous pouvez désactiver cette option si vous préférez une vue plus plate.
+
+                    Personnalisation avancée : Les paramètres comme la "Ligne de départ", le "Nombre de lignes" ou le "Groupe de colonnes de départ" vous permettent d'affiner l'affichage de votre tableau
+
+                    pour vous concentrer sur les données les plus pertinentes.
+
+                    En résumé, la partie "Paramètres de l'onglet" est l'endroit où vous transformez les briques de base (variables) en un rapport personnalisé qui répond à vos questions spécifiques, que ce
+
+                    soit un tableau détaillé ou un graphique synthétique.
+
+
+                maintenant revenont à notre exemple qui consiste à trouver quel est la page qui vois le plus d'utilisateurs quiter le site :
+
+                    1/ aller sur explorer dans le menu à gauche et choisire format libre tout en haut :
+
+                    2/ en ouvrant on voit une partie sur la gauche qui permet de rentrer les données pour les croisé enssemble, et sur la droite on a le resultat recherché affichè sous forme de tableau.
+
+                    3/ sur la partie gauche on commence par choisire les utilisateurs à afficher par *segment de pays, arrivè par traffic direct, type d'appreil, ...etc. Dans notre exemple on ne veut pas
+
+                    juste des utilisateurs qui habitent aux Etat-unis donc on supprime 'US' on fait clique gauche et delete.
+
+                    4/ maintenant on va sur *dimension
+
+
+
+
+
+
 
 
 
