@@ -521,7 +521,32 @@ est reportè sur les summary cards(carte de resumè):
 
                     juste des utilisateurs qui habitent aux Etat-unis donc on supprime 'US' on fait clique gauche et delete.
 
-                    4/ maintenant on va sur *dimension
+                    4/ maintenant on va sur *dimension* est on constate desvaleurs par deffaut qui sont lie au type d'appareils, le genre, les caneaux de flux et d'autres informations
+
+                    qui ne sont pas utile a notre recherche, donc on les suprimme avec le bouton droit.
+
+                    5/ la dimension sur laquel on va travailler c'est les pages du site on apuys sur "+" et dans le moteur de recherche on tape "page title" par la suite on
+
+                    selectionne la variable "page title and screen class".
+
+                    6/ Maintenant on va sur "metrics" on efface les valeurs par deffaut et comme on veut les chifres des personnes qui sortent du site par une page donnée, on souahite aussi
+
+                    faire une comparaison avec les personnes entrante par cette meme page pour voir le delta, donc on appyue dur "+" et par la suite dans le moteur de recherche on ecrit
+
+                    le mot cle "entrance" on selectionne la variable par la suite on ecrit "exit" et on selectionne.
+
+                    7/ maintenant depuis variable on glisse l'objet desiré sur lequel on travail qui est "page tittle on screen" vers parmaetres dans "ligne" ce qui affichera les pages en question
+
+                    8/ on peut encore afficher plus de ligne en allant sur parametre>afficher plus de ligne.
+
+                    9/ Par la suite on glisse les metrics sur parametres>valeurs et on constates l'affichage des 2 colonnes corespandante.
+
+
+
+
+
+
+
 
 
 
