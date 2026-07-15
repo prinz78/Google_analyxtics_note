@@ -1,6 +1,7 @@
-###### c'est quoi google analytics? #######
+KP1. c'est quoi google analytics? :
 
 c'est une application web offerte par google pour analyser la facons dont les utilisateurs trouvent et utilisent le siteweb cible pour recuperer
+
 des donnees essentiel qui permetent definir une strategie marketing adequate.
 
 1.que retourne google analytique?
@@ -19,7 +20,7 @@ par exemple:
 
 et beaucoups d'autres temes
 
-2.google analytics resultat : google analytics permet de retourner des indicateurs comme le ROI(Return on Investment) qui permetent de mesurer les coups
+2.google analytics resultat : google analytics permet de retourner des indicateurs comme le ROI(Return on Investment) qui permetent de mesurer les coups et depenses marketing
 
 3.GA4 utilisation sur le marché du commerce:
 
@@ -32,15 +33,17 @@ GA4 est le plus connus mondialement
 -45% de grande entreprise dans le monde l'utilisent
 
 
-###### installation de googleanalytics ########
 
-pour pouvoir utiliser GA4 il faut d'abbor l?installer et le configurer comme suit
 
-ouvrire ce lien : analytics.google.com
+KP2. installation de google analytics 4:
+
+pour pouvoir utiliser GA4 il faut dabord l'installer et le configurer comme suit
+
+Ouvrir ce lien : analytics.google.com
 
 1/entrez l'adresse e-mail de votre compte gmail ou autre
 
-2/ cliquer sur "start measuring" pour lamcer l'account setup
+2/ cliquer sur "start measuring" pour lancer l'account setup
 
 3/ sur l'account setup account entre le nom du compte (generalement le nom de votre entreprise ou projet)
 
@@ -52,7 +55,8 @@ ouvrire ce lien : analytics.google.com
 
 7/ ajouter la taille de votre entreprise(par exemple de 1 - 10)
 
-8/ il faut choisir les fonctionalité que vous desirer utiliser dans google analytics. Pour un commencement
+8/ il faut choisir les fonctionalité que vous desirer utiliser dans google analytics. Pour un debut
+
 cocher les case suivante :
 
         *Measure Customer Emgagement with my site or App
@@ -67,131 +71,147 @@ cocher les case suivante :
 
 10/ sur my email communication ne cocher rien du tout just apuyer sur "save"
 
-###### ajout du site sur GA4 ########
+ 1.ajout du site sur GA4
 
-pour traquer l'utilisation de votre appllication ou siteweb il faut d'abbord l'ajouter :
+    pour traquer l'utilisation de votre application ou siteweb il faut d'abord l'ajouter :
 
-1/ dans le menus a gauche aller sur Data Streams
+    1/ dans le menus a gauche aller sur Data Streams
 
-2/ choisir la plateforme desiré dans notre exemple le site web
+    2/ choisir la plateforme desiré dans notre exemple le site web
 
-3/ entrer l'url du site web et le lier avec le poprety setup sur le champ stream name, par exemple:
+    3/ entrer l'url du site web et le lier avec le poprety setup sur le champ stream name, par exemple:
 
-    www.mywebsite.com
-    myprojectname
+        www.mywebsite.com
 
-4/ "Enhanced measurement" doit etre activé, par la suite cliquer sur "create stream"
+        myprojectname
 
-5/ on obtien la page "stream details" qui s'affiche
+    4/ "Enhanced measurement" doit etre activé, par la suite cliquer sur "create stream"
 
-maintenant on install Google tag et pour cela il faut verifier si le code crée par GA4 est bien
-dans le "Google tag instruction", ce code est en java script et permet de lier "Google Tag", le site internet ainsi que GA4 ensemble
+    5/ on obtien la page "stream details" qui s'affiche
 
-##########c'est quoi google Tags :
+    maintenant on install Google tag et pour cela il faut verifier si le code crée par GA4 est bien
 
-Les "Google tags" sont des outils qui permettent de collecter des données sur ce que font les visiteurs de votre site web, afin d'en analyser
-les performances et d'optimiser vos campagnes marketing.
+    dans le "Google tag instruction", ce code est en java script et permet de lier "Google Tag", le site internet ainsi que GA4 ensemble
 
-Pour faire simple, ils agissent comme des capteurs que vous installez sur votre site. Ils transmettent des informations aux outils
-Google comme Google Analytics ou Google Ads, par exemple quand une personne
-achète un produit, s'inscrit à une newsletter ou consulte une page spécifique . Pour gérer ces tags efficacement, deux approches principales existent.
+ 2.c'est quoi google Tags :
 
-######## installation google Tags
+    Les "Google tags" sont des outils qui permettent de collecter des données sur ce que font les visiteurs de votre site web, afin d'en analyser
 
-1/ aller sur sur google et tapper "google manager" puis cliquer sur le lien Google Tag
+    les performances et d'optimiser vos campagnes marketing.
 
-2/ maintenant cliquer sur "create an acount" puis dans "Account name" donner le nom du compte et le pays a selectioner
+    Pour faire simple, ils agissent comme des capteurs que vous installez sur votre site. Ils transmettent des informations aux outils
 
-puis dans container "setup" entrer  l'url du site web et enfin sur "Targer platform" choisire la platform
+    Google comme Google Analytics ou Google Ads, par exemple quand une personne
 
-que vous souhaiter dans notre cas "web"
+    achète un produit, s'inscrit à une newsletter ou consulte une page spécifique . Pour gérer ces tags efficacement, deux approches principales existent.
 
-3/ accepter les terme, par la suite on recoit deux script en java script qui doit etre ajouter
+    2.1 installation google Tags
 
-manuellement dans toutes les pages du site web un dans la balise <header> et l'autre dans la balise <body>.
+        1/ aller sur sur google et tapper "google manager" puis cliquer sur le lien Google Tag
 
-###### liason google Tags a GA4 :
+        2/ maintenant cliquer sur "create an acount" puis dans "Account name" donner le nom du compte et le pays a selectioner
 
-1/ sur le dashboard de google tags aller dans le menu à gauche et cliquer sur "Tags"
+        puis dans container "setup" entrer  l'url du site web et enfin sur "Targer platform" choisire la platform
 
-2/ Cliquer sur new puis sur tag configuration et choisir GA4
+        que vous souhaiter dans notre cas "web"
 
-3/ une page s'ouvre et affiche un champ "Measurement ID". Pour recuperer le "measurement ID" il faut retourner
+        3/ accepter les terme, par la suite on recoit deux script en java script qui doit etre ajouter
 
-sur GA4 puis cliquer sur "Data streams" recuperer le "Measurement ID" qui doit etre coller dans le champ de definition
+        manuellement dans toutes les pages du site web un dans la balise <header> et l'autre dans la balise <body>.
 
-de "Google Tag"
+    2.2liason google Tags a GA4 :
 
-4/ Aller sur "Triggering" puis choisir "All Pages" puis cliquer sur le bouton "save"
+        1/ sur le dashboard de google tags aller dans le menu à gauche et cliquer sur "Tags"
 
-5/ maintenant il faut publier les tags dans google analytics comme suit : aller en haut à droite et cliquer
+        2/ Cliquer sur new puis sur tag configuration et choisir GA4
 
-sur "publish"
+        3/ une page s'ouvre et affiche un champ "Measurement ID". Pour recuperer le "measurement ID" il faut retourner
 
-maintenant on verifie que tout fonctionne :
+        sur GA4 puis cliquer sur "Data streams" recuperer le "Measurement ID" qui doit etre coller dans le champ de definition
 
-1/ On ouvre le site internet
+        de "Google Tag"
 
-2/ on va sur "reports" dans le menu de gauche pui on choisit "Realtime" on vois que le rappor s'affiche
+        4/ Aller sur "Triggering" puis choisir "All Pages" puis cliquer sur le bouton "save"
 
+        5/ maintenant il faut publier les tags dans google analytics comme suit : aller en haut à droite et cliquer
 
-###### comment eviter de gonfler votre trafique de donnees (Lecture correcte)
+        sur "publish"
 
-il est tres important qu'ont puisse lire correctement les donnes avec precision sans inclure les vus et les actions
+        maintenant on verifie que tout fonctionne :
 
- de notre service informatiques et marketing pour cela il faut crée des regles
+        1/ On ouvre le site internet
 
-specifiques dans google analytique pour que les courbes soient correcte est juste dans le temp
-
-conforment et reellement mis à jour, onfait de la manierre suivante :
-
-1/ aller sur admin>data stream et cliquer sur le stream(notre site web)
-
-2/ cliquer sur tag seeting>Define internal traffic pui clique sur create
-
-3/ par l suite nous avons une page qui s'affiche ou on doit entre notre :
-        *nom de la regle : n'importe quel nom
-        *traffic_type value : le laisser internal
-        *choisir IP adresse equals
-
-apres avoir cree la regle maintenant on l'applique
-
-4/ aller dans admin>data settings>Data Filters>internal trafic
-
-5/ on remplis les champs :
-    *filter details>data filter name: le nom de la regle cree avant
-    *filter state : activate
-
-6/ cliquer sur create et apres sur "activate Filter"
-
-la regle fonctionne maintenant
+        2/ on va sur "reports" dans le menu de gauche pui on choisit "Realtime" on vois que le rappor s'affiche
 
 
-############### Demo Analytics Account
+3.Comment eviter de gonfler votre trafique de donnees (Lecture correcte)
 
-pour une meilleur comprehension de google analytics et avoir une optimisation sur tout les tableaux et rapports du dashboard on utilise la demo
-faite par google qu'on trouve sur le site suivant "https://support.google.com/analytics/answer/6367342?hl=en#access&zippy=%2Cin-this-article"
+    il est tres important qu'ont puisse lire correctement les donnes avec precision sans inclure les vus et les actions
 
-quand on est sur le sit au mileux de la page ont trouve deux liens :
+    de notre service informatiques et marketing pour cela il faut crée des regles
 
--Google Analytics property: Google Merchandise Store (web data) -> configuration faite pour mesurer les vente sur le store google
+    specifiques dans google analytique pour que les courbes soient correcte est juste dans le temp
 
--Google Analytics property: Flood-It! (app and web data) -> configuration faite de l'utilisation des jeux videos sur
+    conforment et reellement mis à jour, onfait de la manierre suivante :
 
-plusieurs platformes comme les plateformes mobile pour mesurer le taux de frequentation des jeux app
+    1/ aller sur admin>data stream et cliquer sur le stream(notre site web)
 
-############### Google analytic Dashboard
+    2/ cliquer sur tag seeting>Define internal traffic pui clique sur create
+
+    3/ par l suite nous avons une page qui s'affiche ou on doit entre notre :
+
+            *nom de la regle : n'importe quel nom
+
+            *traffic_type value : le laisser internal
+
+            *choisir IP adresse equals
+
+    apres avoir cree la regle maintenant on l'applique
+
+    4/ aller dans admin>data settings>Data Filters>internal trafic
+
+    5/ on remplis les champs :
+
+        *filter details>data filter name: le nom de la regle cree avant
+
+        *filter state : activate
+
+    6/ cliquer sur create et apres sur "activate Filter"
+
+    la regle fonctionne maintenant
+
+
+4.Demo Analytics Account
+
+    pour une meilleur comprehension de google analytics et avoir une optimisation sur tout les tableaux et rapports du dashboard on utilise la demo
+
+    faite par google qu'on trouve sur le site suivant "https://support.google.com/analytics/answer/6367342?hl=en#access&zippy=%2Cin-this-article"
+
+    quand on est sur le sit au mileux de la page ont trouve deux liens :
+
+    -Google Analytics property: Google Merchandise Store (web data) -> configuration faite pour mesurer les vente sur le store google
+
+    -Google Analytics property: Flood-It! (app and web data) -> configuration faite de l'utilisation des jeux videos sur
+
+    plusieurs platformes comme les plateformes mobile pour mesurer le taux de frequentation des jeux app
+
+
+
+KP3. Google analytic Dashboard
 
 nous allons maintenant faire une bref reconaissance de notre tableau de controle de GA4.
 
 en utilisant un des comptes demo google analytics account, dans le menu a gauche :
 
-    *rapport>rapport instantané : permet d?avoir une vue general mais pas precise sur les données recherché, pour avoir des resultats precis on ira consulter plutot les rapport sous l'onglet
+    1.rapport>rapport instantané : permet d'avoir une vue general mais pas precise sur les données recherché, pour avoir des resultats precis on ira consulter plutot les
+
+    rapport sous l'onglet:
+
      "life cycle"
 
     *rapport>rapport temps réel : rapport au temps T, tres utile pour observer l'effet d'une campagne publicitaire
 
-    -Partie 1 Life Cycle :
+    2. Partie 1 Life Cycle :
         *rapport>lifecycle>Aquisition>Vue de l'utilisateur : Cet onglet répond à la question "D'où viennent vos visiteurs ?". Il analyse les canaux (recherche organique, direct, réseaux sociaux, campagnes payantes, etc.)
 
         qui amènent du trafic vers votre site ou application . Il vous permet
@@ -210,137 +230,144 @@ en utilisant un des comptes demo google analytics account, dans le menu a gauche
 
         Acquisition vous dit qui vient, Engagement vous dit ce qu'ils font, Monétisation vous dit combien ils rapportent, mais Rétention vous dit s'ils sont suffisamment intéressés pour revenir.
 
-    -Partie 2 Utilisateurs :
+    2. Partie 2 Utilisateurs :
         *rapport>users>demographie>vue d'utilisateur : nous donne les zones geographque plus le genre et plus d'informations sur nos clients et uuilisateur.
 
         *rapport>users>tech>vue d'utilisateur : nous retourne les appareils les plus utilisés, les systemes d'exploitations et beaucoup d'autres information concernant les technologies.
 
-    remarque : tout les rapports son affiché sur un resultat de 28 jours par defaut, mais on peut parametrer le calendrier comme on le souhaite.
+        remarque : tout les rapports son affiché sur un resultat de 28 jours par defaut, mais on peut parametrer le calendrier comme on le souhaite.
 
-    *Explorer : pour etudier avec precision une donnee qu'on souhaite detailler
+        *Explorer : pour etudier avec precision une donnee qu'on souhaite detailler
 
-    *Recapitulatif publicite : pour etudier les campagnes de publicte lance avec google Ads ou un autre outil
+        *Recapitulatif publicite : pour etudier les campagnes de publicte lance avec google Ads ou un autre outil
 
 
-###### Analyses des données #######
 
-nous allons maintenant faire des analyses simple mais claire des differentes données concernant le trafic, les pages les plus utilisées sur le site, les donnes demographiques et les technologie apparente tout cela
 
-est reportè sur les summary cards(carte de resumè):
 
-  KP1.Trouver Annalyser le Trafic utilisateur
+KP4. Analyses des données
 
-    1- Les piliers de l'audience :
+    nous allons maintenant faire des analyses simple mais claire des differentes données concernant le trafic, les pages
 
-        1/ aller sur rapport>cycle de vie>aquisition>vue d'ensemble
+    les plus utilisées sur le site, les donnes demographiques et les technologie apparente tout cela
 
-        2/ sur le tableau periodique qui affiche le traffic utilisateur en haut a gauche on vois deux indices :
+    est reportè sur les summary cards(carte de resumè):
 
-            Utilisateur actif : utilisateur deja inscrit et qui revienent plusieurs fois.
+    1.Trouver Annalyser le Trafic utilisateur
 
-            Nouveau Utilisateur : nouveau utilisateurs inscrits.
+        1- Les piliers de l'audience :
 
-        3/ il est possible de voir de facon periodique en parcourant la courbe combien ont frequente le site a tel date.
+            1/ aller sur rapport>cycle de vie>aquisition>vue d'ensemble
 
-        4/ en haut a droite on peut parametrer la date sur la bare de menu intermediaire.
+            2/ sur le tableau periodique qui affiche le traffic utilisateur en haut a gauche on vois deux indices :
 
+                Utilisateur actif : utilisateur deja inscrit et qui revienent plusieurs fois.
 
+                Nouveau Utilisateur : nouveau utilisateurs inscrits.
 
-    2-Les canaux d'acquisition
+            3/ il est possible de voir de facon periodique en parcourant la courbe combien ont frequente le site a tel date.
 
-        Nouveaux utilisateurs par groupe de canaux (première interaction) : C'est votre carte "Acquisition" par excellence. Elle répond à la question : "Par quel canal les gens ont-ils découvert mon site
+            4/ en haut a droite on peut parametrer la date sur la bare de menu intermediaire.
 
-        pour la première fois ?" (Recherche organique, Réseaux sociaux payants, Direct, etc.) . Elle utilise la dimension "First user" qui est définitive pour l'utilisateur, contrairement à la carte suivante.
 
-        Sessions par groupe de canaux (session) : Ici, l'angle est différent. On ne regarde pas le premier contact de l'utilisateur, mais toutes les sessions, qu'elles viennent d'un nouveau
 
-        visiteur ou d'un visiteur régulier . C'est ce qui se rapproche le plus de l'ancien rapport "Acquisition" d'Universal Analytics. Par exemple, si un utilisateur vient
+        2- Les canaux d'acquisition
 
-        d'abord via la recherche organique, puis revient via un lien direct, cette carte attribuera la session à "Direct" .
+                Nouveaux utilisateurs par groupe de canaux (première interaction) : C'est votre carte "Acquisition" par excellence. Elle répond à la question : "Par quel canal les gens
 
-        Sessions par campagne Google Ads (session) : Une carte dédiée aux utilisateurs de Google Ads. Elle détaille le nombre de sessions générées par le nom de vos différentes
+                ont-ils découvert mon site pour la première fois ?" (Recherche organique, Réseaux sociaux payants, Direct, etc.).
 
-        campagnes publicitaires, ce qui vous permet de mesurer directement l'efficacité de vos annonces.
+                Elle utilise la dimension "First user" qui est définitive pour l'utilisateur, contrairement à la carte suivante.
 
-        voici les indices :
+                Sessions par groupe de canaux (session) : Ici, l'angle est différent. On ne regarde pas le premier contact de l'utilisateur, mais toutes les sessions, qu'elles
 
-             1. Direct (Trafic direct)
+                viennent d'un nouveau visiteur ou d'un visiteur régulier . C'est ce qui se rapproche le plus de l'ancien rapport "Acquisition" d'Universal Analytics.
 
-                Ce que c'est : Des utilisateurs qui arrivent sur votre site sans qu'on sache d'où ils viennent.
+                Par exemple, si un utilisateur vient d'abord via la recherche organique, puis revient via un lien direct, cette carte attribuera la session à "Direct".
 
-                Exemples concrets :
+                Sessions par campagne Google Ads (session) : Une carte dédiée aux utilisateurs de Google Ads. Elle détaille le nombre de sessions générées par le nom de vos différentes
 
-                    Ils tapent votre URL directement dans la barre d'adresse de leur navigateur (monsite.com).
+                campagnes publicitaires, ce qui vous permet de mesurer directement l'efficacité de vos annonces.
 
-                    Ils cliquent sur un lien enregistré dans leurs favoris (bookmark).
+                voici les indices :
 
-                    Ils cliquent sur un lien dans un document PDF, un email non balisé, ou une application mobile qui n'envoie pas d'informations de suivi.
+                     1* Direct (Trafic direct)
 
-                Interprétation : Un taux de Direct élevé peut être bon (notoriété de votre marque) ou mauvais (vos liens ne sont pas correctement trackés).
+                        Ce que c'est : Des utilisateurs qui arrivent sur votre site sans qu'on sache d'où ils viennent.
 
-            2. Organic Search (Recherche organique)
+                        Exemples concrets :
 
-                Ce que c'est : Des visiteurs qui viennent des résultats naturels (non payants) des moteurs de recherche (Google, Bing, DuckDuckGo, etc.).
+                            Ils tapent votre URL directement dans la barre d'adresse de leur navigateur (monsite.com).
 
-                Exemple concret : Un internaute tape "meilleurs chaussures de running" dans Google et clique sur le premier lien bleu qui n'a pas la mention "Sponsorisé".
+                            Ils cliquent sur un lien enregistré dans leurs favoris (bookmark).
 
-                Interprétation : C'est le pouls de votre SEO (référencement naturel). Si ce chiffre monte, vos articles et pages sont bien positionnés dans les moteurs de recherche.
+                            Ils cliquent sur un lien dans un document PDF, un email non balisé, ou une application mobile qui n'envoie pas d'informations de suivi.
 
-            3. Paid Search (Recherche payante)
+                            Interprétation : Un taux de Direct élevé peut être bon (notoriété de votre marque) ou mauvais (vos liens ne sont pas correctement trackés).
 
-                Ce que c'est : Des visiteurs qui viennent en cliquant sur vos annonces payantes diffusées sur les moteurs de recherche (Google Ads, Bing Ads).
+                    2* Organic Search (Recherche organique)
 
-                Exemple concret : Une personne tape "achat chaussures en ligne", et clique sur le lien qui apparaît en premier avec la petite étiquette "Annonce" ou "Sponsorisé".
+                        Ce que c'est : Des visiteurs qui viennent des résultats naturels (non payants) des moteurs de recherche (Google, Bing, DuckDuckGo, etc.).
 
-                Interprétation : C'est le canal de vos campagnes SEA. Il vous montre le retour sur investissement (ROI) de votre budget publicitaire sur les mots-clés.
+                        Exemple concret : Un internaute tape "meilleurs chaussures de running" dans Google et clique sur le premier lien bleu qui n'a pas la mention "Sponsorisé".
 
-            4. Unassigned (Non attribué / Non classé)
+                        Interprétation : C'est le pouls de votre SEO (référencement naturel). Si ce chiffre monte, vos articles et pages sont bien positionnés dans les moteurs de recherche.
 
-                Ce que c'est : LA catégorie "fourre-tout". GA4 n'a pas réussi à identifier la provenance exacte du trafic, souvent à cause d'un paramètre manquant ou d'une limitation technique (comme une redirection qui efface les infos de suivi).
+                    3* Paid Search (Recherche payante)
 
-                Interprétation : Idéalement, ce chiffre doit être le plus bas possible. S'il est élevé, cela signifie que vous perdez des données (par exemple, des clics venant de réseaux sociaux qui ne sont pas trackés correctement, ou des campagnes qui manquent de balises UTM).
+                        Ce que c'est : Des visiteurs qui viennent en cliquant sur vos annonces payantes diffusées sur les moteurs de recherche (Google Ads, Bing Ads).
 
-            5. Cross-network (Multi-réseaux - principalement Google Ads)
+                        Exemple concret : Une personne tape "achat chaussures en ligne", et clique sur le lien qui apparaît en premier avec la petite étiquette "Annonce" ou "Sponsorisé".
 
-                Ce que c'est : Un canal très spécifique à Google Ads. Il regroupe les visiteurs qui viennent de campagnes publicitaires qui combinent plusieurs réseaux Google en même temps.
+                        Interprétation : C'est le canal de vos campagnes SEA. Il vous montre le retour sur investissement (ROI) de votre budget publicitaire sur les mots-clés.
 
-                Exemple concret : Si vous lancez une campagne "Performance Max" sur Google, celle-ci diffuse vos annonces à la fois sur la Recherche Google, YouTube, Gmail, et le Display Network. Tous les clics issus de cette campagne multi-canal seront rangés ici.
+                    4* Unassigned (Non attribué / Non classé)
 
-                Interprétation : Ce n'est pas un canal "naturel", mais un regroupement technique de vos annonces Google cross-plateformes.
+                        Ce que c'est : LA catégorie "fourre-tout". GA4 n'a pas réussi à identifier la provenance exacte du trafic, souvent à cause d'un paramètre manquant ou d'une limitation technique (comme une redirection qui efface les infos de suivi).
 
-            6. Referral (Trafic de référence / Recommandation)
+                        Interprétation : Idéalement, ce chiffre doit être le plus bas possible. S'il est élevé, cela signifie que vous perdez des données (par exemple, des clics venant de réseaux sociaux qui ne sont pas trackés correctement, ou des campagnes qui manquent de balises UTM).
 
-                Ce que c'est : Des visiteurs qui arrivent en cliquant sur un lien qui se trouve sur un autre site web (qui n'est pas un moteur de recherche).
+                    5* Cross-network (Multi-réseaux - principalement Google Ads)
 
-                Exemples concrets :
+                        Ce que c'est : Un canal très spécifique à Google Ads. Il regroupe les visiteurs qui viennent de campagnes publicitaires qui combinent plusieurs réseaux Google en même temps.
 
-                    Un article de blog d'un influenceur qui met un lien vers votre boutique.
+                        Exemple concret : Si vous lancez une campagne "Performance Max" sur Google, celle-ci diffuse vos annonces à la fois sur la Recherche Google, YouTube, Gmail, et le Display Network. Tous les clics issus de cette campagne multi-canal seront rangés ici.
 
-                    Un site d'actualités qui cite votre étude.
+                        Interprétation : Ce n'est pas un canal "naturel", mais un regroupement technique de vos annonces Google cross-plateformes.
 
-                    Un annuaire professionnel ou un forum (Reddit, Quora) qui redirige vers vous.
+                    6* Referral (Trafic de référence / Recommandation)
 
-                Interprétation : C'est excellent pour le SEO (backlinks) et pour la notoriété. Cela mesure votre "buzz" sur le web.
+                        Ce que c'est : Des visiteurs qui arrivent en cliquant sur un lien qui se trouve sur un autre site web (qui n'est pas un moteur de recherche).
 
-            7. Organic Social (Social organique)
+                        Exemples concrets :
 
-                Ce que c'est : Des visiteurs qui viennent des réseaux sociaux (Facebook, Instagram, LinkedIn, X/Twitter, TikTok, etc.) gratuitement, c'est-à-dire via des publications naturelles (et non via des publicités payantes).
+                            Un article de blog d'un influenceur qui met un lien vers votre boutique.
 
-                Exemple concret : Vous postez une photo sur Instagram avec votre lien dans la bio, un abonné clique dessus. Ou vous partagez un article sur votre page LinkedIn et un contact clique dessus.
+                            Un site d'actualités qui cite votre étude.
 
-                Interprétation : C'est l'indicateur de l'engagement de votre communauté et de la qualité de votre contenu social gratuit.
+                            Un annuaire professionnel ou un forum (Reddit, Quora) qui redirige vers vous.
 
+                        Interprétation : C'est excellent pour le SEO (backlinks) et pour la notoriété. Cela mesure votre "buzz" sur le web.
 
-    3-La valeur à long terme
+                    7* Organic Social (Social organique)
 
-        Valeur vie client LTV(Long Term Value) sur 120 jours : la carte la plus stratégique. Elle ne se concentre pas sur un volume de trafic, mais sur la qualité de celui-ci.
+                        Ce que c'est : Des visiteurs qui viennent des réseaux sociaux (Facebook, Instagram, LinkedIn, X/Twitter, TikTok, etc.) gratuitement, c'est-à-dire via des publications naturelles (et non via des publicités payantes).
 
-        Elle estime le revenu moyen généré par les nouveaux utilisateurs au cours de leurs 120 premiers jours . Cela vous permet de savoir si vos canaux attirent des
+                        Exemple concret : Vous postez une photo sur Instagram avec votre lien dans la bio, un abonné clique dessus. Ou vous partagez un article sur votre page LinkedIn et un contact clique dessus.
 
-        clients qui achètent immédiatement (faible LTV) ou des clients qui restent fidèles et génèrent des revenus dans la durée (forte LTV).
+                        Interprétation : C'est l'indicateur de l'engagement de votre communauté et de la qualité de votre contenu social gratuit.
 
 
-  KP2.Trouver et analyser les donnees consultation par pays
+        3- La valeur à long terme
+
+            Valeur vie client LTV(Long Term Value) sur 120 jours : la carte la plus stratégique. Elle ne se concentre pas sur un volume de trafic, mais sur la qualité de celui-ci.
+
+            Elle estime le revenu moyen généré par les nouveaux utilisateurs au cours de leurs 120 premiers jours . Cela vous permet de savoir si vos canaux attirent des
+
+            clients qui achètent immédiatement (faible LTV) ou des clients qui restent fidèles et génèrent des revenus dans la durée (forte LTV).
+
+
+    2. Trouver et analyser les donnees consultation par pays
 
         pour regrouper les donnes demographiques il faut aller sur utilisateur>demographie>detail demographique :
 
@@ -366,9 +393,9 @@ est reportè sur les summary cards(carte de resumè):
             il est possible avec le signe "+" en haut a Gauche du tableau de selectioner le classement par ville ou par categorie d'age, ...ect
 
 
-  KP3.Trouver et analyser les pages les plus utilisé et leur dynamique sur notre site web :
+    3. Trouver et analyser les pages les plus utilisé et leur dynamique sur notre site web :
 
-        pour un vue claire et directe sur les pages les plus frequenté il faut aller sur rapports>life cycle>engagement>pages et écrans :
+        - pour un vue claire et directe sur les pages les plus frequenté il faut aller sur rapports>life cycle>engagement>pages et écrans :
 
             1/ On observe sur le premier resume card un ensemble de courbes qui permetent d'avoir les trois premierre page visités en plus d'une courbe qui donne
 
@@ -376,7 +403,7 @@ est reportè sur les summary cards(carte de resumè):
 
             2/ il est passible d'ajouter un filtre pour conditioner les courbes en haut a gauche du la carte de resumé
 
-        pour avoir une representation statistique sur un tableau on consulte le tableau de données listé.
+        - pour avoir une representation statistique sur un tableau on consulte le tableau de données listé.
 
             1/ Sur ce tableau il faut d'abord changer un parametre en appuyant sur la liste de selection en haut a gauche et selectioner "titre de page et classe de l'ecran", car le tableau affiche par deffaut
 
@@ -395,7 +422,7 @@ est reportè sur les summary cards(carte de resumè):
             ou appareil mobile.
 
 
-  kp4. Trouver et analyser les donnèes sur les segments de populations et leur frequentations :
+    4. Trouver et analyser les donnèes sur les segments de populations et leur frequentations :
 
         pour pouvoir determiner la tranche le sexe, le centre d'intèret et la tranche d'age qui ont le plus agis sur le site, on va sur rapport>utilisateur>demographie>vue d'ensemble :
 
@@ -403,7 +430,7 @@ est reportè sur les summary cards(carte de resumè):
 
         pour avoir les donnees totale il faut cliquer en bas à droite sur le lien bleu du resume card, comme par exemple pour le sexe "Afficher les données sur le sexe":
 
-        1-utilisateur par genre :
+        1- utilisateur par genre :
 
             il faut observer les 4 indicateurs suivante pour faire une analyse correcte des besoins :
 
@@ -415,35 +442,37 @@ est reportè sur les summary cards(carte de resumè):
 
             *revenue total : les revenustotale generé par genre.
 
-        2-utilisateur par centre d'interet :
+        2- utilisateur par centre d'interet :
 
             indicateur meme chose que les utilisateur par genre
 
-        3-utilisateur actif par age :
+        3- utilisateur actif par age :
 
             indicateur meme chose que les utilisateur par genre
 
 
 
-  kp5. Trouver et analyser les donnèes sur les canaux d'aquisition les plus utilisé :
+    5. Trouver et analyser les donnèes sur les canaux acquisition les plus utilisé :
 
-    si on desir savoir par quel canal on arrive le plus a joindre notre site internet on va sur rapport>live cycle>aquisition>Traffic aquisition par session
+        si on desir savoir par quel canal on arrive le plus a joindre notre site internet on va sur rapport>live cycle>aquisition>Traffic aquisition par session
 
-    et on observe dans le tableau d'aquisition en bas les indicateurs suivant :
+        et on observe dans le tableau d'aquisition en bas les indicateurs suivant :
 
-        *session : c'est le nombre de session qui ont ete attein via le canal en question.
+            *session : c'est le nombre de session qui ont ete attein via le canal en question.
 
-        *taux d'engagement : c'est l'augmentation en pourcentage du taux d'acces via ce canal.
+            *taux d'engagement : c'est l'augmentation en pourcentage du taux d'acces via ce canal.
 
-        *revenus total : c'est le revenus qu'a permis de generer l'activité de ce canal
+            *revenus total : c'est le revenus qu'a permis de generer l'activité de ce canal
 
-    il est tres important de coprendre que ce tableau est un element cle de l'analyse des moyens par lequel on attire les clients surtout via des campagnes publicitaire
+        il est tres important de coprendre que ce tableau est un element cle de l'analyse des moyens par lequel on attire les clients surtout via des campagnes publicitaire
 
-    qu'on a declanchè avec l'outil Google Ads par exemple, cela permet de voir si la campagne publicitaire est efficace ou pas.
+        qu'on a declanchè avec l'outil Google Ads par exemple, cela permet de voir si la campagne publicitaire est efficace ou pas.
 
 
 
-  kp6.Croisement de données:
+
+
+KP6. Croisement de données:
 
     imaginons maintenant qu'on veut savoir par quelle page ou le plus utilisateurs quittent le site, on ne poura pas avoir l'information directement sur nos resume card,
 
@@ -499,23 +528,27 @@ est reportè sur les summary cards(carte de resumè):
 
 
 
-       2-coté paramètre :
+       2- coté paramètre :
 
-           Dans l'outil "Explorations" de GA4, la partie "Paramètres de l'onglet" (Tab Settings) est le cœur du rapport. C'est ici que vous allez construire votre tableau ou votre graphique, en utilisant
+           Dans l'outil "Explorations" de GA4, la partie "Paramètres de l'onglet" (Tab Settings) est le cœur du rapport. C'est ici que vous allez construire
 
-           les dimensions et métriques que vous avez préparées dans la partie "Variables" que nous avons vue précédemment.
+           votre tableau ou votre graphique, en utilisant les dimensions et métriques que vous avez préparées dans la partie "Variables" que nous avons vue précédemment.
 
-           La partie "Variables" contient la matière première, et la partie "Paramètres de l'onglet" est l'atelier où vous l'assemblez pour créer votre visualisation. Elle est divisée en plusieurs sections
+           La partie "Variables" contient la matière première, et la partie "Paramètres de l'onglet" est l'atelier où vous l'assemblez pour créer votre visualisation.
 
-           que vous pouvez configurer selon vos besoins .
+           Elle est divisée en plusieurs sections que vous pouvez configurer selon vos besoins.
 
            Description + Exemples d'utilisation :
 
-            * Visualisation (Visualization) : Permet de choisir le type de graphique pour représenter vos données : tableau, diagramme en anneau, graphique linéaire, nuage de points, diagramme à barres ou
+            * Visualisation (Visualization) : Permet de choisir le type de graphique pour représenter vos données :
+
+            tableau, diagramme en anneau, graphique linéaire, nuage de points, diagramme à barres ou
 
             carte géographique.	Sélectionnez "Tableau" pour une vue détaillée ligne par ligne, ou "Carte géographique" pour visualiser la répartition de vos utilisateurs par pays.
 
-            * Segments (Segment Comparison) :	Vous pouvez appliquer jusqu'à 4 segments pour comparer le comportement de différentes audiences (ex: utilisateurs mobiles vs. utilisateurs sur tablette).
+            * Segments (Segment Comparison) :	Vous pouvez appliquer jusqu'à 4 segments pour comparer le comportement de différentes
+
+            audiences (ex: utilisateurs mobiles vs. utilisateurs sur tablette).
 
             Faites glisser le segment "Trafic mobile" depuis la partie "Variables" pour analyser uniquement le comportement de ces utilisateurs.
 
@@ -527,13 +560,15 @@ est reportè sur les summary cards(carte de resumè):
 
             Si vous en ajoutez plusieurs, elles s'organiseront en hiérarchie. Placez la dimension "Source/Support" en première ligne pour voir vos canaux d'acquisition.
 
-            * Colonnes (Columns):	Vous placez ici les dimensions qui formeront les colonnes de votre tableau. Vous pouvez en ajouter jusqu'à 2. C'est très utile pour des comparaisons entre catégories.
+            * Colonnes (Columns):	Vous placez ici les dimensions qui formeront les colonnes de votre tableau. Vous pouvez en ajouter jusqu'à 2.
+
+            C'est très utile pour des comparaisons entre catégories.
 
             Placez la dimension "Catégorie d'appareil" en colonne pour comparer les performances sur mobile, desktop et tablette côte à côte.
 
-            * Valeurs (Values): C'est ici que vous placez les métriques que vous souhaitez mesurer. Vous pouvez en ajouter jusqu'à 10.	Faites glisser "Utilisateurs", "Sessions" et "Taux d'engagement" dans
+            * Valeurs (Values): C'est ici que vous placez les métriques que vous souhaitez mesurer. Vous pouvez en ajouter jusqu'à 10.
 
-            cette section pour voir les chiffres clés de votre rapport.
+            Faites glisser "Utilisateurs", "Sessions" et "Taux d'engagement" dans ette section pour voir les chiffres clés de votre rapport.
 
             Type de cellule (Cell type)	Permet de modifier l'affichage des métriques. Vous pouvez les afficher en texte brut, sous forme de barres
 
@@ -541,9 +576,7 @@ est reportè sur les summary cards(carte de resumè):
 
             rapidement les cellules avec les valeurs les plus élevées.
 
-
-
-            -Construire le rapport : Pour créer votre rapport, vous faites glisser les éléments (dimensions et métriques) depuis la partie "Variables" vers les sections
+       3- Construire le rapport : Pour créer votre rapport, vous faites glisser les éléments (dimensions et métriques) depuis la partie "Variables" vers les sections
 
             correspondantes (Lignes, Colonnes, Valeurs) dans la partie "Paramètres de l'onglet". La visualisation se met automatiquement à jour dans la partie centrale.
 
@@ -555,40 +588,40 @@ est reportè sur les summary cards(carte de resumè):
 
             pour vous concentrer sur les données les plus pertinentes.
 
-            En résumé, la partie "Paramètres de l'onglet" est l'endroit où vous transformez les briques de base (variables) en un rapport personnalisé qui répond à vos questions spécifiques, que ce
+            En résumé, la partie "Paramètres de l'onglet" est l'endroit où vous transformez les briques de base (variables) en un rapport personnalisé
 
-            soit un tableau détaillé ou un graphique synthétique.
+            qui répond à vos questions spécifiques, que ce soit un tableau détaillé ou un graphique synthétique.
 
 
-        maintenant revenont à notre exemple qui consiste à trouver quel est la page qui vois le plus d'utilisateurs quiter le site :
+       4- maintenant revenont à notre exemple qui consiste à trouver quel est la page qui vois le plus d'utilisateurs quiter le site :
 
-            1/ aller sur explorer dans le menu à gauche et choisire format libre tout en haut :
+                1/ aller sur explorer dans le menu à gauche et choisire format libre tout en haut :
 
-            2/ en ouvrant on voit une partie sur la gauche qui permet de rentrer les données pour les croisé enssemble, et sur la droite on a le resultat recherché affichè sous forme de tableau.
+                2/ en ouvrant on voit une partie sur la gauche qui permet de rentrer les données pour les croisé enssemble, et sur la droite on a le resultat recherché affichè sous forme de tableau.
 
-            3/ sur la partie gauche on commence par choisire les utilisateurs à afficher par *segment de pays, arrivè par traffic direct, type d'appreil, ...etc. Dans notre exemple on ne veut pas
+                3/ sur la partie gauche on commence par choisire les utilisateurs à afficher par *segment de pays, arrivè par traffic direct, type d'appreil, ...etc. Dans notre exemple on ne veut pas
 
-            juste des utilisateurs qui habitent aux Etat-unis donc on supprime 'US' on fait clique gauche et delete.
+                juste des utilisateurs qui habitent aux Etat-unis donc on supprime 'US' on fait clique gauche et delete.
 
-            4/ maintenant on va sur *dimension* est on constate desvaleurs par deffaut qui sont lie au type d'appareils, le genre, les caneaux de flux et d'autres informations
+                4/ maintenant on va sur *dimension* est on constate desvaleurs par deffaut qui sont lie au type d'appareils, le genre, les caneaux de flux et d'autres informations
 
-            qui ne sont pas utile a notre recherche, donc on les suprimme avec le bouton droit.
+                qui ne sont pas utile a notre recherche, donc on les suprimme avec le bouton droit.
 
-            5/ la dimension sur laquel on va travailler c'est les pages du site on apuys sur "+" et dans le moteur de recherche on tape "page title" par la suite on
+                5/ la dimension sur laquel on va travailler c'est les pages du site on apuys sur "+" et dans le moteur de recherche on tape "page title" par la suite on
 
-            selectionne la variable "page title and screen class".
+                selectionne la variable "page title and screen class".
 
-            6/ Maintenant on va sur "metrics" on efface les valeurs par deffaut et comme on veut les chifres des personnes qui sortent du site par une page donnée, on souahite aussi
+                6/ Maintenant on va sur "metrics" on efface les valeurs par deffaut et comme on veut les chifres des personnes qui sortent du site par une page donnée, on souahite aussi
 
-            faire une comparaison avec les personnes entrante par cette meme page pour voir le delta, donc on appyue dur "+" et par la suite dans le moteur de recherche on ecrit
+                faire une comparaison avec les personnes entrante par cette meme page pour voir le delta, donc on appyue dur "+" et par la suite dans le moteur de recherche on ecrit
 
-            le mot cle "entrance" on selectionne la variable par la suite on ecrit "exit" et on selectionne.
+                le mot cle "entrance" on selectionne la variable par la suite on ecrit "exit" et on selectionne.
 
-            7/ maintenant depuis variable on glisse l'objet desiré sur lequel on travail qui est "page tittle on screen" vers parmaetres dans "ligne" ce qui affichera les pages en question
+                7/ maintenant depuis variable on glisse l'objet desiré sur lequel on travail qui est "page tittle on screen" vers parmaetres dans "ligne" ce qui affichera les pages en question
 
-            8/ on peut encore afficher plus de ligne en allant sur parametre>afficher plus de ligne.
+                8/ on peut encore afficher plus de ligne en allant sur parametre>afficher plus de ligne.
 
-            9/ Par la suite on glisse les metrics sur parametres>valeurs et on constates l'affichage des 2 colonnes corespandante.
+                9/ Par la suite on glisse les metrics sur parametres>valeurs et on constates l'affichage des 2 colonnes corespandante.
 
 
 
