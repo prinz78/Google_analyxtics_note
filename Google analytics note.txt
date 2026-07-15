@@ -1,36 +1,42 @@
-KP1. c'est quoi google analytics? :
 
-c'est une application web offerte par google pour analyser la facons dont les utilisateurs trouvent et utilisent le siteweb cible pour recuperer
+    durant ce cours nous allons apprendre les conceptes de base de GA4(Google Analytics 4) ce qui permetera à beaucoup d'entre nous de mesurer l'audience et le trafic que genere
 
-des donnees essentiel qui permetent definir une strategie marketing adequate.
+    nos applications et sites internet afin d'avoir une visibilité concrete de notre activitè.
 
-1.que retourne google analytique?
+    je vous souhaite un bon aprentisage :).
 
-par exemple:
+    KP1. c'est quoi google analytics? :
 
--le nombre de visiteur.
+        c'est une application web offerte par google pour analyser la facons dont les utilisateurs trouvent et utilisent le siteweb cible pour recuperer
 
--leurs zone geographique
+        des donnees essentiel qui permetent definir une strategie marketing adequate.
 
--quel type de materiel ils utilisent
 
--combien de temps ils passent sur le site
+        par exemple:
 
--les actions qu'ils font
+            -le nombre de visiteur.
 
-et beaucoups d'autres temes
+            -leurs zone geographique
 
-2.google analytics resultat : google analytics permet de retourner des indicateurs comme le ROI(Return on Investment) qui permetent de mesurer les coups et depenses marketing
+            -quel type de materiel ils utilisent
 
-3.GA4 utilisation sur le marché du commerce:
+            -combien de temps ils passent sur le site
 
-GA4 est le plus connus mondialement
+            -les actions qu'ils font et beaucoups d'autres temes
 
--Au moins 10 millions de siteweb l'utilisent dans le monde(Netflix, UBS,...ect)
+        1.google analytics resultat :
 
--64% de detaillant e-commerce l'utilisent
+            Google analytics permet de retourner des indicateurs comme le ROI(Return on Investment) qui permetent de mesurer les coups et depenses marketing
 
--45% de grande entreprise dans le monde l'utilisent
+        2.GA4 utilisation sur le marché du commerce:
+
+            GA4 est le plus connus mondialement
+
+            -Au moins 10 millions de siteweb l'utilisent dans le monde(Netflix, UBS,...ect)
+
+            -64% de detaillant e-commerce l'utilisent
+
+            -45% de grande entreprise dans le monde l'utilisent
 
 
 
@@ -593,7 +599,7 @@ KP6. Croisement de données:
             qui répond à vos questions spécifiques, que ce soit un tableau détaillé ou un graphique synthétique.
 
 
-       4- maintenant revenont à notre exemple qui consiste à trouver quel est la page qui vois le plus d'utilisateurs quiter le site :
+       4- maintenant revenont à notre exemple qui consiste à trouver quel est la page qui vois le plus d'utilisateurs a quiter le site :
 
                 1/ aller sur explorer dans le menu à gauche et choisire format libre tout en haut :
 
@@ -623,6 +629,27 @@ KP6. Croisement de données:
 
                 9/ Par la suite on glisse les metrics sur parametres>valeurs et on constates l'affichage des 2 colonnes corespandante.
 
+
+conclusion :
+
+    la conclusion se fera sur trois points :
+
+    - ceci n'est qu'une partie simplifiè du potentiel incroyable que peut apporter GA4 comme données et informations relative à l'etude marketing et du comportement de notre site par à port ä l'audiance
+
+    voici le cours a suivre si vous souhaiter completer et maitriser GA4 :
+
+        https://www.udemy.com/course/ultimate-google-analytics-training-for-beginners/?couponCode=KEEPLEARNING
+
+    - il faut aussi s'interesser à Google Ads qui est un outils tres puissant pour lancer les campagnes publicitaire efficace et pertinante :
+
+        https://de.wikipedia.org/wiki/Google_Ads
+
+    - si vous voulez developper des site de facon graphique et rapide sans beaucoups de dificulter intrerssez vous à wordpress :
+
+        https://de.wikipedia.org/wiki/WordPress
+
+
+    je vous souhaite un tres bon aprentissage et beaucoup de bonheur! :)
 
 
 
