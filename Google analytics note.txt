@@ -340,7 +340,7 @@ est reportè sur les summary cards(carte de resumè):
         clients qui achètent immédiatement (faible LTV) ou des clients qui restent fidèles et génèrent des revenus dans la durée (forte LTV).
 
 
-  KP2.Trouver et analyser les donnees demographique
+  KP2.Trouver et analyser les donnees consultation par pays
 
         pour regrouper les donnes demographiques il faut aller sur utilisateur>demographie>detail demographique :
 
@@ -393,6 +393,53 @@ est reportè sur les summary cards(carte de resumè):
             3/ il est possible de rajouter avec le bouton + une propriete pour plus de detail sur les resultats comme par exemple "la plateforme de l'appareil" pour voir les page le plus consulter par Android par exemple
 
             ou appareil mobile.
+
+
+  kp4. Trouver et analyser les donnèes sur les segments de populations et leur frequentations :
+
+        pour pouvoir determiner la tranche le sexe, le centre d'intèret et la tranche d'age qui ont le plus agis sur le site, on va sur rapport>utilisateur>demographie>vue d'ensemble :
+
+        sur cette partie il y a trois resume card qui nous interessent "utilisateur par genre", "utilisateur par interet", "utilisateur par age".
+
+         pour avoir les donnees totale il faut cliquer en bas à droite sur le lien bleu du resume card, comme par exemple pour le sexe "Afficher les données sur le sexe":
+
+        1-utilisateur par genre :
+
+            il faut observer les 4 indicateurs suivante pour faire une analyse correcte des besoins :
+
+            *utilisateur actif : les utilisateurs qui revienent souvent pour veisiter ou acheter les articles du site en question.
+
+            *Session avec engagement : session qui ont aboutit a une prestation commercial ou information sur un produit.
+
+            *durée d'engagement moyenne par utilisateur actif : la durèe de cette seission en minute
+
+            *revenue total : les revenustotale generé par genre.
+
+        2-utilisateur par centre d'interet :
+
+            indicateur meme chose que les utilisateur par genre
+
+        3-utilisateur actif par age :
+
+            indicateur meme chose que les utilisateur par genre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         1.Croisement de données:
 
